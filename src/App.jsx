@@ -10,8 +10,8 @@ function App() {
 
   return (
     <div className="flex flex-col">
-      <main className="flex justify-center items-start sm:items-center h-[100vh] bg-slate-200 max-sm:justify-between max-sm:h-full  ">
-        <div className="w-[950px] h-[500px] flex flex-col bg-white rounded-xl sm:flex-row max-sm:h-full max-sm:w-full max-sm:rounded-none">
+      <main className="flex justify-center items-start md:items-center h-[100vh] bg-slate-200 max-md:justify-between max-md:h-full  ">
+        <div className="w-[950px] h-[500px] flex flex-col bg-white rounded-xl md:flex-row max-sm:h-full max-sm:w-full max-sm:rounded-none">
           <Calculator
             setIsSubmitted={setIsSubmitted}
             setFormData={setFormData}
